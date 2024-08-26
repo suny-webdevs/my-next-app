@@ -51,7 +51,7 @@ const Navbar = () => {
           href={"/"}
           className="text-xl font-bold uppercase"
         >
-          {pathName.includes("meals") ? "My Meal App" : "My Next App"}
+          {pathName.includes("meals") ? "My Meal App" : "My First Next App"}
         </Link>
         <ul className="flex items-center gap-5 font-medium">
           {links.map((link) => (
